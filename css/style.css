@@ -93,6 +93,30 @@ section#entertainment {
     font-size: 2rem;
 }
 
+/* Meet the team */
+
+
+#keiren-profile {
+    background-image: url("https://media.licdn.com/dms/image/C5603AQH7gCMR06hR1A/profile-displayphoto-shrink_800_800/0?e=1546473600&v=beta&t=sMumMmX2Gvg2SPYk8Qsi3pnHfHy9AzKFG8HYC4ji0K4")
+}
+
+#darren-profile {
+    background-image: url("https://media.licdn.com/dms/image/C5103AQENGj_kIg1fUQ/profile-displayphoto-shrink_200_200/0?e=1546473600&v=beta&t=GD7cbgQUJ06hOE_2VJxNwF69eFynd154R60VaL0OaAI")
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.team-profile h3 {
+    margin-bottom: 0;
+}
+
+.team-profile h4 {
+    margin-top: 0;
+}
+
 /* Footer */
 
 footer .footer-cols {
@@ -148,6 +172,17 @@ footer .footer-bottom {
     flex: 1 1 0;
     padding:0 15px;
 }
+
+.cropcircle{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background: #eee no-repeat center;
+    background-size: cover;
+    border:5px solid #3f464d;
+    cursor: pointer;
+}
+
 
 /* Buttons */
 .btn {
@@ -311,6 +346,10 @@ nav a#openup {
 
     footer .footer-cols {
         display: none;
+    }
+
+    .team-container {
+        display: inline-block;
     }
 }
 
