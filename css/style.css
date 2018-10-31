@@ -73,11 +73,31 @@ section#entertainment {
 #showcase {
     margin: 0;
     padding: 0;
-    background: url('../img/showcase.jpeg') no-repeat center/cover;
+    /* background: url('../img/showcase.jpeg') no-repeat center/cover; */
     width: 100%;
     height: 100vh;
     position: relative;
     overflow: hidden;
+}
+
+#showcase:before {
+    content: "";
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: -1;
+
+  display: block;
+  background-image: url('../img/showcase.jpeg');
+  background-size:cover;
+  width: 100%;
+  height: 100vh;
+
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(5px);
+  -o-filter: blur(5px);
+  -ms-filter: blur(5px);
+  filter: blur(5px);
 }
 
 #showcase .container {
@@ -228,6 +248,10 @@ footer .footer-bottom {
 .bg-light {
     background: var(--light-color);
     color: #333;
+}
+
+.bg-dark {
+    background: #333
 }
 
 /* Navigation styling */
