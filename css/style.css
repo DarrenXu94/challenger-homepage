@@ -54,6 +54,21 @@ section#entertainment {
     text-align: left;
 }
 
+.contact ul {
+    padding: 0;
+}
+
+.contact li{
+    /* text-align: left; */
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+.contact i {
+    text-align: center;
+    width: 1rem;
+}
+
 /* Showcase */
 #showcase {
     margin: 0;
@@ -131,6 +146,7 @@ footer .footer-bottom {
 
 .even-flex {
     flex: 1 1 0;
+    padding:0 15px;
 }
 
 /* Buttons */
