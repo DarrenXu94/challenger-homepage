@@ -49,9 +49,8 @@ section#entertainment {
 }
 
 .gift-cards {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    align-items: center;
     text-align: left;
 }
 
@@ -128,6 +127,10 @@ footer .footer-bottom {
 
 .text-center {
     text-align: center;
+}
+
+.even-flex {
+    flex: 1 1 0;
 }
 
 /* Buttons */
@@ -287,7 +290,7 @@ nav a#openup {
   /* For IE 6/7 (trigger hasLayout) */
 @media screen and (max-width: 780px) {
     .gift-cards {
-        grid-template-columns: 1fr;
+        display: inline-block;
     }
 
     footer .footer-cols {
