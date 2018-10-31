@@ -137,7 +137,7 @@ footer .footer-bottom {
     display: inline-block;
 }
 
-.btn-secondary {
+.btn-primary {
     background-color: var(--primiary-color)
 }
 
