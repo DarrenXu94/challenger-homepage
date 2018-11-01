@@ -211,6 +211,7 @@ footer .footer-bottom {
     padding: 1rem;
     color: #fff;
     display: inline-block;
+    border-radius: 0.5rem;
 }
 
 .btn-primary {
@@ -378,7 +379,7 @@ nav a#openup {
         display: inline-block;
     }
 
-    .container {
+    #what-do-we-provide {
         padding: 0;
     }
 
