@@ -69,6 +69,10 @@ section#entertainment {
     width: 1rem;
 }
 
+.contact a {
+    color: #333;
+}
+
 /* Showcase */
 #showcase {
     margin: 0;
